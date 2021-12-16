@@ -17,7 +17,7 @@ def download_gradle_wrapper(wrapper_path):
                      "?raw=true"
     urlretrieve(gradle_wrapper, f"{wrapper_path}/gradle-wrapper.jar")
 
-    gradle_wrapper_props = "https://raw.githubusercontent.com/FabricMC/fabric-example-mod/master/gradle/wrapper" \
+    gradle_wrapper_props = "https://raw.githubusercontent.com/FabricMC/fabric-example-mod/1.18/gradle/wrapper" \
                            "/gradle-wrapper.properties"
     urlretrieve(gradle_wrapper_props, f"{wrapper_path}/gradle-wrapper.properties")
 
