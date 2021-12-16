@@ -1,6 +1,6 @@
 settings_gradle_content = """pluginManagement {
     repositories {
-        jcenter()
+        maven { url = "https://server.bbkr.space/artifactory/libs-release/" }
         maven {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
