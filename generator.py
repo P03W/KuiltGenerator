@@ -261,7 +261,7 @@ minecraft {
 }
 
 repositories {
-    maven { url = "http://maven.fabricmc.net/" }
+    maven { url = "https://maven.fabricmc.net/" }
     maven { url = "https://dl.bintray.com/kotlin/kotlin-eap" }
     maven { url = "https://dl.bintray.com/kotlin/dokka" }
     mavenCentral()
