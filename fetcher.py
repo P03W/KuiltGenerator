@@ -64,7 +64,7 @@ def get_fabric_api(mc_version):
 
 
 def get_latest_loom():
-    return "0.6-SNAPSHOT"
+    return "0.10-SNAPSHOT"
 
 
 def download_icon(path):
