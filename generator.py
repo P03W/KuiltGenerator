@@ -239,6 +239,7 @@ def generate_build_script(path, kx_ver, uses_fabric):
     id \"fabric-loom\" version \"$loom_version\"
     id \"maven-publish\"
     id \"org.jetbrains.kotlin.jvm\" version \"$kotlin_version\"
+    id \"io.github.juuxel.loom-quiltflower-mini\" version \"1.2.1\"
 """
     )
 
